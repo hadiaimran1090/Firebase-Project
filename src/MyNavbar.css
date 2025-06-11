@@ -1,0 +1,15 @@
+/* MyNavbar.css */
+
+/* Hover effect for Login, Register, and Logout buttons */
+.nav-btn {
+    border: 2px solid #f8f9fa; /* Light border */
+    padding: 0.375rem 0.75rem; /* Padding inside the buttons */
+    border-radius: 4px; /* Rounded corners */
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .nav-btn:hover {
+    background-color: #f81010; /* Light background on hover */
+    color: black; /* Dark text color on hover */
+  }
+  

@@ -1,4 +1,6 @@
 import { Routes, Route } from "react-router-dom";
+import {Toaster} from "react-hot-toast"
+
 
 // Components
 import MyNavbar from "./components/Navbar";
@@ -14,10 +16,13 @@ import ViewOrderDetails from "./pages/ViewOrderDetail";
 // CSS
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
+// import { messaging } from "./context/Firebase";
 
 function App() {
-  return (
+
+ return (
     <div>
+      <Toaster position="top-right" reverseOrder={false} />
       <MyNavbar />
       <Routes>
         <Route path="/" element={<HomePage />} />

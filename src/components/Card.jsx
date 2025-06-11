@@ -11,9 +11,9 @@ const BookCard = (props) => {
 
   const [url, setURL] = useState(null);
 
-  useEffect(() => {
-    firebase.getImageURL(props.imageURL).then((url) => setURL(url));
-  }, []);
+  // useEffect(() => {
+  //   firebase.getImageURL(props.imageURL).then((url) => setURL(url));
+  // }, []);
 
   console.log(props);
 
